@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    padding: 20px;
+    font-size: 20px;
+} */
+
+.random-color-generator-container {
+    display: flex;
+    /* gap: 10px; */
+}
+
+.hex-color,
+.rgb-color {
+    min-height: 100vh;
+    flex: 1;
+}
+
+.hex-color button {
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: #023047;
+    background-color: #a2d2ff;
+
+    border: none;
+    border: 1px solid black;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.363);
+}
+
+.rgb-color {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hex-color {
+    background-color: #041c50;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.hex-color-value,
+.rgb-color-value {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+
+.hex-color button:hover {
+    background-color: #2d5ea8;
+    color: #ffffff;
+
+}
+
+.hex-color button:active {
+    background-color: #051e55;
+}
+
+.rgb-color {
+    background-color: rgb(27, 4, 46);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rgb-color button {
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #f59e64;
+
+    border: none;
+    border: 1px solid black;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.363);
+}
+
+.rgb-color div label {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.rgb-color div input {
+    cursor: pointer;
+
+}
+
+.rgb-color button:hover {
+    background-color: #d3501c;
+    color: #ffffff;
+
+}
+
+.rgb-color button:active {
+    background-color: #cf381e;
+}
